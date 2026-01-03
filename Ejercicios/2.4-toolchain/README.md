@@ -1,16 +1,48 @@
-Ejercicio 2.4 – Toolchain de compilación en C
+# C Compiler (from Scratch)
 
-Objetivo:
-Explorar las etapas del toolchain:
-- Preprocesador
-- Compilador
-- Assembler
-- Linker
+This repository documents the progressive development of a C compiler,
+following the book *Introduction to Compilers and Language Design*.
 
-Se analizan los efectos de distintos niveles de optimización
-(-O0, -O1, -O3, -Os) sobre el código ensamblador generado.
+The goal of this project is to **understand and implement** the fundamental
+phases of a modern compiler, from lexical analysis to code generation,
+with an emphasis on both theoretical foundations (automata, grammars, IRs)
+and their practical realization in C/C++.
 
-El programa utiliza:
-- Convolución 1D
-- Cálculo determinista
-- Checksum para evitar eliminación por optimización
+---
+
+## Repository Structure
+
+```text
+c-compiler/
+├── ejercicios/     # Exercises and mini-projects from the book
+├── compiler/       # Final compiler implementation
+├── docs/           # Theoretical notes and references
+└── scripts/        # Auxiliary scripts
+
+### `ejercicios/`
+
+Contains self-contained exercises whose purpose is to explore fundamental
+concepts of compiler design, such as:
+
+- toolchains
+- regular expressions
+- scanners
+- automata
+
+Each exercise includes:
+
+- source code
+- generated artifacts
+- minimal documentation describing the objective and conclusions
+
+### `compiler/`
+
+Incremental implementation of the final compiler.
+
+This directory contains only stable code that is correct, documented,
+and intended to be clear and easy to understand.
+
+
+### references
+- Introduction to Compilers and Language Design
+- https://json.org
