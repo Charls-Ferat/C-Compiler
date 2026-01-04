@@ -12,11 +12,13 @@ and their practical realization in C/C++.
 
 ## Repository Structure
 
+<pre> ```text
 c-compiler/
 ├── Exercises/     # Exercises and mini-projects from the book
 ├── Compiler/       # Final compiler implementation
 ├── Docs/           # Theoretical notes and references
 └── Scripts/        # Auxiliary scripts
+``` </pre>
 
 ### Excercises
 ### Compiler file
