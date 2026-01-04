@@ -20,7 +20,7 @@ c-compiler/
 └── Scripts/        # Auxiliary scripts
 
 
-### `Exercises/`
+### Exercises/
 
 Contains self-contained exercises whose purpose is to explore fundamental
 concepts of compiler design, such as:
@@ -36,7 +36,7 @@ Each exercise includes:
 - generated artifacts
 - minimal documentation describing the objective and conclusions
 
-### `Compiler/`
+### Compiler/
 
 Incremental implementation of the final compiler.
 
