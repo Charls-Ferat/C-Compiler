@@ -36,6 +36,8 @@ Each exercise includes:
 - generated artifacts
 - minimal documentation describing the objective and conclusions
 
+> **Note:** Here some binary files are intentionally versioned as part of the toolchain exploration and optimization analysis.
+
 
 ### `Compiler file/`
 
