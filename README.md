@@ -19,6 +19,7 @@ c-compiler/
 ├── Docs/           # Theoretical notes and references
 └── Scripts/        # Auxiliary scripts
 
+
 ### `Exercises/`
 
 Contains self-contained exercises whose purpose is to explore fundamental
