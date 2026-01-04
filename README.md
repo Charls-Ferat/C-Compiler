@@ -19,9 +19,12 @@ c-compiler/
 ├── Docs/           # Theoretical notes and references
 └── Scripts/        # Auxiliary scripts
 
+---
+
 
 ### Exercises/
 
+```text
 Contains self-contained exercises whose purpose is to explore fundamental
 concepts of compiler design, such as:
 
@@ -35,6 +38,8 @@ Each exercise includes:
 - source code
 - generated artifacts
 - minimal documentation describing the objective and conclusions
+
+---
 
 ### Compiler/
 
