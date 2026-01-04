@@ -1,0 +1,32 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts (global)
+*.o
+*.a
+*.so
+*.dll
+*.out
+
+# Compilador final
+/compiler/bin/
+/compiler/build/
+
+# Temporales
+*.log
+*.tmp
+
+# Python (por si usas scripts)
+__pycache__/
+*.pyc
+
+# Permitir binarios solo en ejercicios
+!/ejercicios/**/*.exe
+!/ejercicios/**/*.out
