@@ -12,19 +12,16 @@ and their practical realization in C/C++.
 
 ## Repository Structure
 
-```text
+<pre>
 c-compiler/
 ├── Exercises/     # Exercises and mini-projects from the book
 ├── Compiler/       # Final compiler implementation
 ├── Docs/           # Theoretical notes and references
 └── Scripts/        # Auxiliary scripts
+</pre>
 
----
+### `Excercises/`
 
-
-## Exercises
-
-```text
 Contains self-contained exercises whose purpose is to explore fundamental
 concepts of compiler design, such as:
 
@@ -39,16 +36,17 @@ Each exercise includes:
 - generated artifacts
 - minimal documentation describing the objective and conclusions
 
----
+> **Note:** Here some binary files are intentionally versioned as part of the toolchain exploration and optimization analysis.
 
-### Compiler
+
+### `Compiler file/`
 
 Incremental implementation of the final compiler.
 
 This directory contains only stable code that is correct, documented,
 and intended to be clear and easy to understand.
 
-
 ## References
+
 - Introduction to Compilers and Language Design
 - https://json.org
