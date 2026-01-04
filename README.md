@@ -43,6 +43,6 @@ This directory contains only stable code that is correct, documented,
 and intended to be clear and easy to understand.
 
 
-### references
+## references
 - Introduction to Compilers and Language Design
 - https://json.org

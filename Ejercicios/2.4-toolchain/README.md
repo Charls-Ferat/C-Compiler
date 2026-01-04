@@ -30,7 +30,7 @@ This design forces the compiler to generate meaningful code at every stage of th
 
 ## Directory Structure
 
-text
+```text
 2.4-toolchain/
 ├── src/ # Source code (.c)
 ├── preprocessed/ # Preprocessor output (.i)
@@ -45,22 +45,22 @@ text
 ### Standard Compilation Steps
 
 1. Preprocessor:
-bash
+```bash
 gcc -E src/main.c > preprocessed/main.i
 
 
 2. Compilation to Assembly:
-bash
+```bash
 gcc -S src/main.c -o assembly/main.s
 
 
 3. Assembly to Object File:
-bash
+```bash
 gcc -c assembly/main.s -o object/main.o
 
 
 4. Linking:
-bash
+```bash
 gcc object/main.o -o bin/main.exe
 
 
@@ -68,7 +68,7 @@ gcc object/main.o -o bin/main.exe
 
 To compare how the compiler handles the code, use the following commands:
 
-bash
+```bash
 gcc -O0 src/main.c -o bin/main_O0.exe
 gcc -O1 src/main.c -o bin/main_O1.exe
 gcc -O3 src/main.c -o bin/main_O3.exe
