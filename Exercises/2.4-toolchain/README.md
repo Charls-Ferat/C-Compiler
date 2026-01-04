@@ -46,8 +46,9 @@ This design forces the compiler to generate meaningful code at every stage of th
 ### Standard Compilation Steps
 
 1. Preprocessor:
-`gcc -E src/main.c > preprocessed/main.i`
-
+```bash
+gcc -E src/main.c > preprocessed/main.i
+```
 
 2. Compilation to Assembly:
 ```bash
