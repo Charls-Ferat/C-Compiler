@@ -14,12 +14,12 @@ and their practical realization in C/C++.
 
 ```text
 c-compiler/
-├── ejercicios/     # Exercises and mini-projects from the book
-├── compiler/       # Final compiler implementation
-├── docs/           # Theoretical notes and references
-└── scripts/        # Auxiliary scripts
+├── Exercises/     # Exercises and mini-projects from the book
+├── Compiler/       # Final compiler implementation
+├── Docs/           # Theoretical notes and references
+└── Scripts/        # Auxiliary scripts
 
-### `ejercicios/`
+### `Exercises/`
 
 Contains self-contained exercises whose purpose is to explore fundamental
 concepts of compiler design, such as:
@@ -35,7 +35,7 @@ Each exercise includes:
 - generated artifacts
 - minimal documentation describing the objective and conclusions
 
-### `compiler/`
+### `Compiler/`
 
 Incremental implementation of the final compiler.
 
@@ -43,6 +43,6 @@ This directory contains only stable code that is correct, documented,
 and intended to be clear and easy to understand.
 
 
-## references
+## References
 - Introduction to Compilers and Language Design
 - https://json.org
