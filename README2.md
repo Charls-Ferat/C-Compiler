@@ -20,7 +20,17 @@ c-compiler/
 └── Scripts/        # Auxiliary scripts
 </pre>
 
-### Excercises
-### Compiler file
+### `Excercises/`
+
+Contains self-contained exercises whose purpose is to explore fundamental
+concepts of compiler design, such as:
+
+- toolchains
+- regular expressions
+- scanners
+- automata
+
+
+### `Compiler file/`
 
 ## References
