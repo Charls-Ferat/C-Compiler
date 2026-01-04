@@ -30,7 +30,21 @@ concepts of compiler design, such as:
 - scanners
 - automata
 
+Each exercise includes:
+
+- source code
+- generated artifacts
+- minimal documentation describing the objective and conclusions
+
 
 ### `Compiler file/`
 
+Incremental implementation of the final compiler.
+
+This directory contains only stable code that is correct, documented,
+and intended to be clear and easy to understand.
+
 ## References
+
+- Introduction to Compilers and Language Design
+- https://json.org
