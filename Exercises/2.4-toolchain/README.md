@@ -30,13 +30,14 @@ This design forces the compiler to generate meaningful code at every stage of th
 
 ## Directory Structure
 
-```text
+<pre>
 2.4-toolchain/
 ├── src/ # Source code (.c)
 ├── preprocessed/ # Preprocessor output (.i)
 ├── assembly/ # Assembly code (.s)
 ├── object/ # Object files (.o)
 └── bin/ # Final executables &
+</pre>
 
 ---
 
@@ -45,24 +46,24 @@ This design forces the compiler to generate meaningful code at every stage of th
 ### Standard Compilation Steps
 
 1. Preprocessor:
-```bash
-gcc -E src/main.c > preprocessed/main.i
+`gcc -E src/main.c > preprocessed/main.i`
 
 
 2. Compilation to Assembly:
 ```bash
 gcc -S src/main.c -o assembly/main.s
+```
 
 
 3. Assembly to Object File:
 ```bash
 gcc -c assembly/main.s -o object/main.o
-
+```
 
 4. Linking:
 ```bash
 gcc object/main.o -o bin/main.exe
-
+```
 
 ### Optimization Levels Comparison
 
@@ -73,7 +74,7 @@ gcc -O0 src/main.c -o bin/main_O0.exe
 gcc -O1 src/main.c -o bin/main_O1.exe
 gcc -O3 src/main.c -o bin/main_O3.exe
 gcc -Os src/main.c -o bin/main_Os.exe
-
+```
 
 ---
 
