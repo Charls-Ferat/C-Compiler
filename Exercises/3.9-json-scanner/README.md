@@ -18,6 +18,6 @@ This allows a direct comparison between generated and explicit lexical analyzers
     3.9-json-scanner/
     ├── flex_scanner/ # Scanner implemented using FLEX
     └── fsm_scanner/ # Hand-written finite state machine scanner
-
-    Each subdirectory contains its own README with build and usage instructions.
 </pre>
+
+Each subdirectory contains its own README with build and usage instructions.
