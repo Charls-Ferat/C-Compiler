@@ -1,4 +1,4 @@
-# regex.py - Implements Regular Expressions (RE)
+# regex_defs.py - Implements Regular Expressions (RE)
 # Python file to answer the exercises from "Introduction to Compilers and Language Design"
 # Section 3.9
 import re
