@@ -9,11 +9,12 @@ Thumbs.db
 *.swo
 
 # Build artifacts (global)
-*.o
 *.a
 *.so
 *.dll
 *.out
+*.o
+*.exe
 
 # Compilador final
 /compiler/bin/
@@ -28,5 +29,6 @@ __pycache__/
 *.pyc
 
 # Permitir binarios solo en ejercicios
-!/ejercicios/**/*.exe
-!/ejercicios/**/*.out
+!Exercises/2.4-toolchain/
+!Exercises/2.4-toolchain/**/*.o
+!Exercises/2.4-toolchain/**/*.exe

@@ -39,7 +39,7 @@ Each exercise includes:
 > **Note:** Here some binary files are intentionally versioned as part of the toolchain exploration and optimization analysis.
 
 
-### `Compiler file/`
+### `Compiler/`
 
 Incremental implementation of the final compiler.
 
